@@ -12,6 +12,8 @@
 		padding-top: 10px;
 		width: 100%;
 		height:60%;
+		justify-content: center;
+		margin-left: 0;
 	}
 
 	.header-text-area {
@@ -28,4 +30,48 @@
 		padding-bottom: 10px;
 	}
 	
+}
+
+@media screen and (min-width: 351px) {
+
+	/* Header Elements */
+	
+	.logo-container {
+		width: 25%;
+	}
+
+	.header-text-area {
+		width: 75%;
+	}
+
+	.header-text-container > h2 {
+		font-size: 1.62em;
+	}
+
+	.header-text-container > p {
+		font-size: 0.91em;
+	}
+
+}
+
+@media screen and (min-width: 395px) {
+
+	/* Header Elements */
+
+	.logo-container {
+		width: 25%;
+	}
+
+	.header-text-area {
+		width: 75%;
+	}
+
+	.header-text-container > h2 {
+		font-size: 1.9em;
+	}
+
+	.header-text-container > p {
+		font-size: 1.07em;
+	}
+
 }
