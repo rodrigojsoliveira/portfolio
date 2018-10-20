@@ -77,10 +77,14 @@
 
 @media screen and (min-width: 750px) {
 
+	/* Document Properties */
+	
 	body {
 		width: 80%;
 		margin: auto;
 	}
+
+	/* Header Elements */
 
 	.logo-container {
 		margin-left: 0;

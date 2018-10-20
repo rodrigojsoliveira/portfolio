@@ -1,4 +1,6 @@
 
+/* Document Propeties */
+
 * {
 	margin: 0;
 	box-sizing: border-box;
@@ -15,7 +17,7 @@ body {
 header {
 	width: 100%;
 	height: 120px;
-	box-shadow: 0 0.25em 0 0 #7d97aa;
+	box-shadow: 0 0.25em 0 0 #7d97ad;
 	display: flex;
 }
 
@@ -25,13 +27,10 @@ header {
 	display: flex;
 	align-items: center;
 	margin-left: 13px;
-	/*justify-content: center;*/
 }
 
 .logo {
-	width: 80px;
-	/*margin-left: 10px;*/
-	
+	width: 80px;	
 }
 
 .header-text-area {
