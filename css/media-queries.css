@@ -28,8 +28,7 @@
 		margin: 0;
 		text-align: center;
 		padding-bottom: 10px;
-	}
-	
+	}	
 }
 
 @media screen and (min-width: 351px) {
@@ -51,7 +50,6 @@
 	.header-text-container > p {
 		font-size: 0.91em;
 	}
-
 }
 
 @media screen and (min-width: 395px) {
@@ -93,6 +91,22 @@
 	.header-text-container {
 		margin: 0;
 	}
+}
 
+@media screen and (min-width: 401px) and (max-width: 800px) {
 
+	/* Main Image */
+
+	.main-img-container {
+		height: 250px;
+	}
+}
+
+@media screen and (min-width: 801px) {
+
+	/* Main Image */
+
+	.main-img-container {
+		height: 400px;
+	}
 }

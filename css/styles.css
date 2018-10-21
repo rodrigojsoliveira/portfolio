@@ -59,3 +59,12 @@ header {
 	margin-top: -5px;
 }
 
+/* Main Image */
+
+.main-img-container {
+	height: 200px;
+	margin-top: 25px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
