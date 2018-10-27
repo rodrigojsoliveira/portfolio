@@ -126,9 +126,11 @@ footer {
 	color: white;
 }
 
-footer p {
+footer a {
 	margin: auto;
 	text-align: center;
+	text-decoration: none;
+	color: white;
 }
 
 i {
