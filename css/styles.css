@@ -86,7 +86,7 @@ header {
 	margin-top: -10px;
 }
 
-span {
+.work-section-title span {
 	font-size: 1.7em;
 }
 
@@ -94,7 +94,7 @@ span {
 	width: 92%;
 	margin-bottom: 30px;
 	text-align: center;
-	padding: 15px;
+	padding: 15px 15px 10px;
 	box-shadow: 0 0 0.3em #7d97ad;
 }
 
@@ -105,11 +105,16 @@ span {
 }
 
 .work-link {
-	font-size: 0.83em;
+	font-size: 0.8em;
 	text-decoration: none;
 	padding-top: 16px;
 	padding-bottom: 16px;
+}
 
+.github-logo {
+	width: 20px;
+	vertical-align: middle;
+	padding-bottom: 3px;
 }
 
 /* Footer */
