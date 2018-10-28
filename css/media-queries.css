@@ -1,5 +1,5 @@
 @media screen and (max-width: 350px) {
-	
+
 	/* Header Elements */
 
 	header {
@@ -8,13 +8,15 @@
 		height: 170px;
 	}
 
+
 	.logo-container {
-		padding-top: 10px;
+		padding: 10px 0 0 0;
 		width: 100%;
 		height:60%;
 		justify-content: center;
-		margin-left: 0;
+		margin: 0;
 	}
+
 
 	.header-text-area {
 		width: 100%;
@@ -23,31 +25,35 @@
 		justify-content: center;
 	}
 
+
 	.header-text-container {
-		width: 100;
+		width: 100%;
 		margin: 0;
 		text-align: center;
-		padding-bottom: 10px;
-	}	
+		padding: 0 0 10px 0;
+	}
 }
 
 @media screen and (min-width: 351px) {
 
 	/* Header Elements */
-	
+
 	.logo-container {
 		width: 25%;
 	}
+
 
 	.header-text-area {
 		width: 75%;
 	}
 
-	.header-text-container > h2 {
+
+	.my-name {
 		font-size: 1.62em;
 	}
 
-	.header-text-container > p {
+
+	.my-job {
 		font-size: 0.91em;
 	}
 }
@@ -60,15 +66,18 @@
 		width: 25%;
 	}
 
+
 	.header-text-area {
 		width: 75%;
 	}
 
-	.header-text-container > h2 {
+
+	.my-name {
 		font-size: 1.9em;
 	}
 
-	.header-text-container > p {
+
+	.my-job {
 		font-size: 1.07em;
 	}
 }
@@ -76,17 +85,19 @@
 @media screen and (min-width: 670px) {
 
 	/* Document Properties */
-	
+
 	body {
 		width: 80%;
 		margin: auto;
 	}
 
+
 	/* Header Elements */
 
 	.logo-container {
-		margin-left: 0;
+		margin: 0;
 	}
+
 
 	.header-text-container {
 		margin: 0;
@@ -110,11 +121,13 @@
 		height: 400px;
 	}
 
+
 	/* Featured Works */
 
 	.work-exhibit {
 		justify-content: space-evenly;
 	}
+
 
 	.work {
 		margin: 0 10px 30px;
@@ -128,6 +141,7 @@
 	.work-exhibit {
 		justify-content: space-between;
 	}
+
 
 	.work {
 		margin: 0 0 30px;

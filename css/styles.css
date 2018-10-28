@@ -6,15 +6,28 @@
 	box-sizing: border-box;
 }
 
+
 body {
 	display: flex;
 	flex-wrap: wrap;
 	font-family: 'El Messiri', Arial, sans-serif;
 }
 
+
 .full-width {
 	width: 100%;
 }
+
+
+.dark {
+	color: #2d3c49;
+}
+
+
+.light {
+	color: #7d97ad;
+}
+
 
 /* Header Elements */
 
@@ -24,17 +37,20 @@ header {
 	display: flex;
 }
 
+
 .logo-container {
 	width: 30%;
 	height: 100%;
 	display: flex;
 	align-items: center;
-	margin-left: 13px;
+	margin: 0 0 0 13px;
 }
 
+
 .logo {
-	width: 80px;	
+	width: 80px;
 }
+
 
 .header-text-area {
 	width: 70%;
@@ -43,52 +59,59 @@ header {
 	justify-content: flex-end;
 }
 
+
 .header-text-container {
 	height: 100%;
 	text-align: right;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-right: 13px;
+	margin: 0 13px 0 0;
 }
 
-.header-text-container > h2 {
+
+.my-name {
 	font-size: 1.6em;
 }
 
-.header-text-container > p {
+
+.my-job {
 	font-size: 0.9em;
-	margin-top: -5px;
+	margin: -5px 0 0 0;
 }
+
 
 /* Main Image */
 
 .main-img-container {
 	height: 200px;
-	margin-top: 25px;
+	margin: 25px 0 0 0;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
 }
+
 
 /* Featured Works */
 
 .work-exhibit {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 15px;
+	margin: 15px 0 0 0;
 	justify-content: center;
 }
 
+
 .work-section-title {
 	text-align: center;
-	margin-bottom: 7px;
-	margin-top: -10px;
+	margin: -10px 0 7px 0;
 }
+
 
 .work-section-title span {
 	font-size: 1.7em;
 }
+
 
 .work {
 	width: 92%;
@@ -99,44 +122,50 @@ header {
 	box-shadow: 0 0 0.3em #7d97ad;
 }
 
+
 .work:hover {
 	box-shadow: 0 0 2em #7d97ad;
 	cursor: pointer;
 }
 
+
 .work-title {
 	font-size: 1.3em;
-	margin-bottom: -7px;
+	margin: 0 0 -7px 0;
 	text-align: center;
 }
+
 
 .work-link {
 	font-size: 0.8em;
 	text-decoration: none;
-	padding-top: 16px;
-	padding-bottom: 16px;
-	overflow-wrap: break-word; 
+	padding: 16px 0;
+	overflow-wrap: break-word;
 }
+
 
 .github-logo {
 	width: 20px;
 	vertical-align: middle;
-	padding-bottom: 3px;
+	padding: 0 0 3px 0;
 }
+
 
 .construction-img {
 	max-height: 156px;
 }
+
 
 /* Footer */
 
 footer {
 	display: flex;
 	height: 2em;
-	margin-top: 15px;
-	background-color: #2d3c49;
+	margin: 15px 0 0 0;
+	background: #2d3c49;
 	color: white;
 }
+
 
 footer a {
 	margin: auto;
@@ -145,17 +174,8 @@ footer a {
 	color: white;
 }
 
+
 i {
-	margin-right: 5px;
+	margin: 0 5px 0 0;
 	vertical-align: middle;
-}
-
-/* Colors */
-
-.dark {
-	color: #2d3c49;
-}
-
-.light {
-	color: #7d97ad;
 }

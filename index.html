@@ -6,8 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=El+Messiri:400,600" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<link rel="stylesheet" type="text/css" href="css/media-queries.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/media-queries.css">
 		<script src="js/script.js"></script>
 	</head>
 	<body>
@@ -22,20 +22,20 @@
 			</div>
 			<div class="header-text-area">
 				<div class="header-text-container dark">
-					<h2>RODRIGO OLIVEIRA</h2>
-					<p>FRONT-END DEVELOPER</p>
+					<h2 class="my-name">RODRIGO OLIVEIRA</h2>
+					<p class="my-job">FRONT-END DEVELOPER</p>
 				</div>
 			</div>
 		</header>
-		<section class="main-img-container">
+		<div class="main-img-container">
 			<picture class="main-img">
 				<source media="(max-width: 400px)" srcset="img/med/computer-illustration-400px.png">
 				<source media="(min-width: 401px) and (max-width: 800px)" srcset="img/med/computer-illustration-800px.png">
 				<source media="(min-width: 801px) and (max-width: 1200px)" srcset="img/med/computer-illustration-1200px.png">
 				<source media="(min-width: 1201px)" srcset="img/med/computer-illustration-1600px.png">
 				<img src="img/med/computer-illustration-400.png" alt="Illustrated top view of a computer and its peripherals.">
-			</picture> 
-		</section>
+			</picture>
+		</div>
 		<section class="work-exhibit full-width">
 			<h2 class="work-section-title full-width light"><span>.</span> Featured Work <span>.</span></h2>
 			<figure class="work dark" onclick="openGithubRepo('ud036_StarterCode')">
@@ -79,7 +79,7 @@
 					 alt="Under construction logo."
 					 class="full-width construction-img">
 				<figcaption class="work-title">Coming soon...</figcaption>
-				<span href="https://github.com/rodrigojsoliveira/" class="work-link dark" target="blank">
+				<span class="work-link dark">
 					<img srcset="img/low/GitHub-Mark-32px.png,
 								 img/med/GitHub-Mark-64px.png 2x,
 								 img/high/GitHub-Mark-120px-plus.png 3x"
