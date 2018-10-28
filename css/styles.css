@@ -92,6 +92,7 @@ header {
 
 .work {
 	width: 92%;
+	max-width: 370px;
 	margin-bottom: 30px;
 	text-align: center;
 	padding: 15px 15px 10px;
@@ -109,6 +110,7 @@ header {
 	text-decoration: none;
 	padding-top: 16px;
 	padding-bottom: 16px;
+	overflow-wrap: break-word; 
 }
 
 .github-logo {
