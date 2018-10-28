@@ -119,6 +119,10 @@ header {
 	padding-bottom: 3px;
 }
 
+.construction-img {
+	max-height: 156px;
+}
+
 /* Footer */
 
 footer {
