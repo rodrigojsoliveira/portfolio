@@ -73,7 +73,7 @@
 	}
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 670px) {
 
 	/* Document Properties */
 	
@@ -108,5 +108,28 @@
 
 	.main-img-container {
 		height: 400px;
+	}
+
+	/* Featured Works */
+
+	.work-exhibit {
+		justify-content: space-evenly;
+	}
+
+	.work {
+		margin: 0 10px 30px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+
+	/* Featured Works */
+
+	.work-exhibit {
+		justify-content: space-between;
+	}
+
+	.work {
+		margin: 0 0 30px;
 	}
 }

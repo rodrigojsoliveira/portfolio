@@ -92,15 +92,15 @@ header {
 
 .work {
 	width: 92%;
-	max-width: 370px;
-	margin-bottom: 30px;
+	max-width: 300px;
+	margin: 0 20px 30px;
 	text-align: center;
 	padding: 15px 15px 10px;
 	box-shadow: 0 0 0.3em #7d97ad;
 }
 
 .work-title {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-bottom: -7px;
 	text-align: center;
 }
@@ -124,6 +124,7 @@ header {
 footer {
 	display: flex;
 	height: 2em;
+	margin-top: 15px;
 	background-color: #2d3c49;
 	color: white;
 }
