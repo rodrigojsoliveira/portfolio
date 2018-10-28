@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/media-queries.css">
+		<script src="js/script.js"></script>
 	</head>
 	<body>
 		<header class="full-width">
@@ -37,7 +38,7 @@
 		</section>
 		<section class="work-exhibit full-width">
 			<h2 class="work-section-title full-width light"><span>.</span> Featured Work <span>.</span></h2>
-			<figure class="work dark">
+			<figure class="work dark" onclick="openGithubRepo('ud036_StarterCode')">
 				<img srcset="img/low/fresh-tomatoes.jpg,
 							 img/med/fresh-tomatoes.jpg 2x,
 							 img/high/fresh-tomatoes.jpg 3x"
@@ -45,7 +46,7 @@
 					 alt="Fresh Tomatoes movie site thumbnail image."
 					 class="full-width">
 				<figcaption class="work-title">Fresh Tomatoes Movie Site</figcaption>
-				<a href="https://github.com/rodrigojsoliveira/ud036_StarterCode" class="work-link dark">
+				<span class="work-link dark">
 					<img srcset="img/low/GitHub-Mark-32px.png,
 								 img/med/GitHub-Mark-64px.png 2x,
 								 img/high/GitHub-Mark-120px-plus.png 3x"
@@ -53,9 +54,9 @@
 						 alt="Github´s cat logo."
 						 class="github-logo">
 					/rodrigojsoliveira/ud036_StarterCode
-				</a>
+				</span>
 			</figure>
-			<figure class="work dark">
+			<figure class="work dark" onclick="openGithubRepo('portfolio')">
 				<img srcset="img/low/portfolio.jpg,
 							 img/med/portfolio.jpg 2x,
 							 img/high/portfolio.jpg 3x"
@@ -63,7 +64,7 @@
 					 alt="Porfolio site thumbnail image."
 					 class="full-width">
 				<figcaption class="work-title">Portfolio</figcaption>
-				<a href="https://github.com/rodrigojsoliveira/portfolio" class="work-link dark">
+				<span class="work-link dark">
 					<img srcset="img/low/GitHub-Mark-32px.png,
 								 img/med/GitHub-Mark-64px.png 2x,
 								 img/high/GitHub-Mark-120px-plus.png 3x"
@@ -71,14 +72,14 @@
 						 alt="Github´s cat logo."
 						 class="github-logo">
 					/rodrigojsoliveira/portfolio
-				</a>
+				</span>
 			</figure>
-			<figure class="work dark">
+			<figure class="work dark" onclick="openGithubRepo('')">
 				<img src="img/Under_construction_icon-yellow.svg"
 					 alt="Under construction logo."
 					 class="full-width construction-img">
 				<figcaption class="work-title">Coming soon...</figcaption>
-				<a href="https://github.com/rodrigojsoliveira/" class="work-link dark">
+				<span href="https://github.com/rodrigojsoliveira/" class="work-link dark" target="blank">
 					<img srcset="img/low/GitHub-Mark-32px.png,
 								 img/med/GitHub-Mark-64px.png 2x,
 								 img/high/GitHub-Mark-120px-plus.png 3x"
@@ -86,7 +87,7 @@
 						 alt="Github´s cat logo."
 						 class="github-logo">
 					/rodrigojsoliveira
-				</a>
+				</span>
 			</figure>
 		</section>
 		<footer class="full-width">

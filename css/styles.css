@@ -99,6 +99,11 @@ header {
 	box-shadow: 0 0 0.3em #7d97ad;
 }
 
+.work:hover {
+	box-shadow: 0 0 2em #7d97ad;
+	cursor: pointer;
+}
+
 .work-title {
 	font-size: 1.3em;
 	margin-bottom: -7px;
